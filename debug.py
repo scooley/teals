@@ -1,5 +1,7 @@
-#favorite_number_str = input("What is your favorite number: ")
-#birth_month_str = input("What month where you born in: ")
+str_time = input("What time is it now?")
+str_wait_time = input("What is the number of nours to wait?")
+time = int(str_time)
+wait_time = int(str_wait_time)
 
-#lucky_number = int(favorite_number_str) + int(birth_month_str)
-#print("Your lucky number is " + lucky_number)
+time_when_alarm_go_off = time + wait_time
+print(time_when_alarm_go_off)
